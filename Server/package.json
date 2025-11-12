@@ -9,8 +9,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
+    "express": "^5.1.0",
+    "form-data": "^4.0.4",
+    "multer": "^2.0.2",
     "openai": "^6.8.1"
   }
 }
