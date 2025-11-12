@@ -6,3 +6,8 @@ curl -v -X POST "https://api.openai.com/v1/videos" \
   -F size="1280x720" \
   -F seconds="8" \
   -F input_reference="@ring.jpg;type=image/jpeg"
+
+curl -v -X POST http://localhost:3000/describe-image \
+-F "images=@plants.jpg" \
+-F "images=@ring.jpg" \
+-F "images=@wine.jpg"
